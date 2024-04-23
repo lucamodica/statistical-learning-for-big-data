@@ -8339,10 +8339,10 @@ $$f_{t+1} = f_t + \eta (y-f_t)$$ with learning rate $\eta$. (Try implementing th
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Question-1">Question 1<a class="anchor-link" href="#Question-1">¶</a></h3><h5 id="1a">1a<a class="anchor-link" href="#1a">¶</a></h5><p>Explore bagging and boosting to classify the cancer data from last project. In order to make it a bit more challenges, add noise to the features and investigate how well the models hold up as a function of increasing noise (increasing class overlap). \</p>
+<h3 id="Question-1">Question 1<a class="anchor-link" href="#Question-1">¶</a></h3><h5 id="1a">1a<a class="anchor-link" href="#1a">¶</a></h5><p>Explore bagging and boosting to classify the cancer data from last project. In order to make it a bit more challenges, add noise to the features and investigate how well the models hold up as a function of increasing noise (increasing class overlap).  Note - you should add noise to both the training and the test data. If you don't the train and test data will have different distributions.</p>
 <p>Both RF and Boosting can give you variable importance measures for the features, either by perturbation of features, counting the number of models in the ensemble that includes the features, etc. In your presentation, make sure you state which measure you used. Do they important features overlap between the methods? Are roughly the same number of features important for the two methods? How is feature importance affected by the increasing noise?</p>
-<h5 id="1b">1b<a class="anchor-link" href="#1b">¶</a></h5><p>Repeat 1a for the cats and dogs data set. This is a much smaller data set so you will face different challenges. \</p>
-<p>To add noise to this data set, I suggest you set a subset of pixels to random values and increase the fraction of pixels that are noise features. \</p>
+<h5 id="1b">1b<a class="anchor-link" href="#1b">¶</a></h5><p>Repeat 1a for the cats and dogs data set. This is a much smaller data set so you will face different challenges.</p>
+<p><em>Optional: To add noise to this data set, I suggest you set a subset of pixels to random values and increase the fraction of pixels that are noise features. </em></p>
 <p>Investigate the feature importance for this data set as well.</p>
 </div>
 </div>
